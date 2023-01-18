@@ -1,0 +1,186 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Ubuntu';
+}
+
+h2 {
+  font-family: 'Source Sans Pro';
+}
+
+h3 {
+  font-family: 'Ubuntu';
+}
+
+p {
+  font-family: 'Source Sans Pro';
+}
+
+.featured-projects-section a,
+footer a {
+  font-family: 'Source Sans Pro';
+}
+
+.preloader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	text-align: center;
+	background: url(../preloader.gif) center no-repeat #181818;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preloader .line {
+  width: 1px;
+  height: 12px;
+  background: #fff;
+  margin: 0 2px;
+  margin-top: 250px;
+  display: inline-block;
+  animation: opacity-1 1000ms infinite ease-in-out;
+}
+
+.preloader .line-1 { animation-delay: 1600ms; }
+.preloader .line-2 { animation-delay: 1400ms; }
+.preloader .line-3 { animation-delay: 1200ms; }
+.preloader .line-4 { animation-delay: 1000ms; }
+.preloader .line-6 { animation-delay: 800ms; }
+.preloader .line-7 { animation-delay: 600ms; }
+.preloader .line-8 { animation-delay: 400ms; }
+.preloader .line-9 { animation-delay: 200ms; }
+.preloader .line-10 { animation-delay: 200ms; }
+.preloader .line-11 { animation-delay: 400ms; }
+.preloader .line-12 { animation-delay: 600ms; }
+.preloader .line-13 { animation-delay: 800ms; }
+.preloader .line-14 { animation-delay: 1000ms; }
+.preloader .line-15 { animation-delay: 1200ms; }
+.preloader .line-16 { animation-delay: 1400ms; }
+.preloader .line-17 { animation-delay: 1600ms; }
+
+@keyframes opacity-1 { 
+  0% { 
+    opacity: 1;
+  }
+  50% { 
+    opacity: 0;
+  }
+  100% { 
+    opacity: 1;
+  }  
+}
+
+@keyframes opacity-2 { 
+  0% { 
+    opacity: 1;
+    height: 15px;
+  }
+  50% { 
+    opacity: 0;
+    height: 12px;
+  }
+  100% { 
+    opacity: 1;
+    height: 15px;
+  }  
+}
+
+.nav-bar {
+  font-family: 'Ubuntu';
+}
+
+.nav-menu a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: rgb(20 184 166);
+  height: 1px;
+}
+
+.nav-menu a:hover:after {
+  width: 100%;
+}
+
+.cursor::after {
+  display: block;
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: #fff;
+  animation: cursor 0.5s linear infinite alternate;
+  will-change: opacity;
+}
+
+@keyframes cursor {
+  0%,
+  40% {
+    opacity: 1;
+  }
+
+  60%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.featured-projects-section {
+  background: rgb(8 8 9 / 70%) url('../work-banner.jpg') no-repeat center fixed;
+  background-size: cover;
+}
+
+.social-media-section {
+  background-color: #fff !important;
+}
+
+footer .social-icon:hover .social-svg-icon {
+  fill: rgb(0 184 166) !important;
+}
+
+.about-section .social-icon:hover .social-svg-mask {
+  fill: rgb(0 184 166) !important;
+}
+
+.back-to-top a {
+	display: none;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: rgb(24 24 27) url("../back-to-top.png") no-repeat center;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+.home-section a,
+.nav-bar a,
+.nav-bar a:after,
+.nav-bar a:before,
+.nav-bar button,
+.featured-projects-section a,
+.featured-projects-section a svg,
+.featured-projects-section img,
+.about-section a,
+.about-section svg,
+footer a {
+  transition: all .5s;
+}
