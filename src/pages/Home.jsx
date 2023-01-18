@@ -21,7 +21,7 @@ function Home() {
             <Preloader />
         ) : (
             <>
-                <div id="home" className="flex flex-col items-center justify-center md:bg-[url('/banner.jpg')] bg-cover md:bg-no-repeat md:bg-center bg-fixed h-screen text-center bg-stone-900">
+                <div id="home" className="flex flex-col items-center justify-center bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed h-screen text-center">
                     <h1 className="mb-1 text-5xl text-white md:block hidden font-semibold">  
                     <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type whitespace-nowrap">Hi, I'm Matt. A Developer.</span>
                     <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor"></span>
@@ -55,7 +55,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div id="featured-projects" className="py-28 px-15 md:px-20 flex flex-col items-center h-full text-white md:bg-[url('/work-banner.jpg')] bg-cover md:bg-no-repeat md:bg-center bg-black bg-fixed">
+                <div id="featured-projects" className="py-28 px-15 md:px-20 flex flex-col items-center h-full text-white bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed">
                     <h1 className="mb-1 text-2xl font-semibold uppercase text-center ">Some Things I've Built</h1>
                     <h2 className="text-center text-md mt-1 mx-10 text-zinc-400">Here are a few past projects I've worked on. Want to see more? Check them <NavLink to="/portfolio" className="relative text-teal-500 inline-block mt-0 hover:underline">here</NavLink>.</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-30 md:gap-y-32 gap-y-16 mt-20 md:text-left text-center items-center">

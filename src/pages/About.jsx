@@ -6,7 +6,7 @@ function About() {
     document.title = "About | Matthew Ezra Labre";
 
     return (
-        <div className="p-28 flex flex-col items-center about-section h-full bg-neutral-900 text-white">
+        <div className="p-28 flex flex-col items-center about-section h-full text-white bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed">
             <h1 className="mb-1 text-2xl font-semibold uppercase">Hey There</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-30 md:gap-y-32 gap-y-16 mt-20 md:text-left text-center">
                 <div>
