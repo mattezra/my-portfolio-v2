@@ -1,5 +1,7 @@
 {
   "name": "portfolio-reactjs",
+  "author": "Matthew Ezra Labre",
+  "description": "Portfolio of Matthew Ezra Labre written in ReactJS, Vite and TailwindCSS",
   "private": true,
   "version": "0.0.0",
   "type": "module",
