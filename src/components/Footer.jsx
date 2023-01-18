@@ -23,11 +23,9 @@ function Footer() {
                 <div>
                     <h3 className="text-2xl text-zinc-900 mb-2 font-semibold">Navigation</h3>
                     <HashLink to="/#home" className="w-max block text-sm text-zinc-900 mb-0 hover:underline">Home</HashLink>
-                    <HashLink to="/#services" className="w-max block text-sm text-zinc-900 mb-0 hover:underline">Services</HashLink>
-                    <HashLink to="/#featured-projects" className="w-max block text-sm text-zinc-900 mb-0 hover:underline">Featured Projects</HashLink>
-                    <HashLink to="/#testimonial" className="w-max block text-sm text-zinc-900 mb-0 hover:underline">Testimonial</HashLink>
                     <NavLink to="/about" className="w-max block text-sm text-zinc-900 mb-0 hover:underline">About</NavLink>
                     <NavLink to="/portfolio" className="w-max block text-sm text-zinc-900 mb-0 hover:underline">Portfolio</NavLink>
+                    <a href="https://drive.google.com/file/d/12LuHEpymfVCj0ELCKhkrSMKc-jDEsnqy/view?usp=sharing" className="w-max block text-sm text-zinc-900 mb-0 hover:underline" target="_blank">Resume</a>
                 </div>
             </div>
             <p className="text-zinc-500 mt-3 text-xs pb-3">© {new Date().getFullYear()} Matthew Ezra Labre</p>

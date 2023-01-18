@@ -96,7 +96,7 @@ function Home() {
                         <img src="/stevepolitisdpt.png" className="grayscale hover:grayscale-0 hover:scale-110 mx-auto" alt="Steve Politis, DPT" loading="lazy" />
                         </div>
                     </div>
-                    <NavLink to="/porfolio" className="mx-2 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-teal-500 hover:text-teal-500 mt-24" target="_blank">See all</NavLink>
+                    <NavLink to="/portfolio" className="mx-2 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-teal-500 hover:text-teal-500 mt-24">See all</NavLink>
                 </div>
                 <div id="testimonial" className="py-28 px-20 flex flex-col items-center testimonial-section h-full text-black text-center bg-gradient-to-r from-teal-500 to-teal-700">
                     <h1 className="mb-10 text-2xl font-semibold uppercase">Testimonial</h1>
