@@ -8,6 +8,7 @@ function About() {
     return (
         <div className="p-28 flex flex-col items-center about-section h-full text-white bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed">
             <h1 className="mb-1 text-2xl font-semibold uppercase">Hey There</h1>
+            <h2 className="text-md mt-1 text-zinc-400">Let me introduce myself.</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-30 md:gap-y-32 gap-y-16 mt-20 md:text-left text-center">
                 <div>
                     <img src="/aboutme.jpg" className="max-h-full" alt="Matthew Ezra Labre" loading="lazy" />

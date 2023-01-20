@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/matthewlabre
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://matthewezralabre19.web.app
+  * I am matthewlabre (https://keybase.io/matthewlabre) on keybase.
+  * I have a public key ASBRZeR1EHHFZUAqolbTMUhe1ySWbbHcRfDUYZIr9tv1VQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120489141bd7284a3dcccb6135d8565a9635f494a7ee4a206683db27220a49a46400a",
+      "host": "keybase.io",
+      "kid": "01205165e4751071c565402aa256d331485ed724966db1dc45f0d461922bf6dbf5550a",
+      "uid": "bde22d47817e5004c0aeb918f1aafc19",
+      "username": "matthewlabre"
+    },
+    "merkle_root": {
+      "ctime": 1674082054,
+      "hash": "6c5a6318c3b6dd9159e8611fd064470225efafe142305a30d492c38ad125e66047a799ddca9989751b91815620bd81c12a3e69e2bba782fa5e3b598a18a03de7",
+      "hash_meta": "68d44b3694646c9b0d0003e8fc2a54036a6328afdc4891d800794ad1a3ca7355",
+      "seqno": 23892588
+    },
+    "service": {
+      "entropy": "vF21Xw0Z9CRT7H3ByzZHK6fk",
+      "hostname": "matthewezralabre19.web.app",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.4"
+  },
+  "ctime": 1674082125,
+  "expire_in": 504576000,
+  "prev": "6302ca847b52b38edf539dba62995bdda55cfda93298e53a9d42ea8929a779fc",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgUWXkdRBxxWVAKqJW0zFIXtcklm2x3EXw1GGSK/bb9VUKp3BheWxvYWTESpcCDcQgYwLKhHtSs47fU526Yplb3aVc/akymOU6nULqiSmnefzEIG/bLKGYU5CA424oU3OYPx8Qj00K55tDhrNXzgNTrS8UAgHCo3NpZ8RAdfHU8Y1JpqC/nYi76NmI9/1cjaalZeaPC5oZ6kRjeAmnVHN0H5GTX9b2X2VWNA15mt9ujm21ZCKD9O8dXGdWCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKlpCTqnMpKXPcvPdfx2VLwPS+kRHnSUENzFg6N+d1Zoo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/matthewlabre
+
+==================================================================

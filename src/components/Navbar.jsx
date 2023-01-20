@@ -8,25 +8,27 @@ function Navbar() {
   };
 
   return (
-    <nav className="md:flex items-center justify-between flex-wrap px-8 py-1 bg-black/[.5] fixed w-full hidden nav-bar z-50">
-      <HashLink to="/#home" className="flex items-center flex-shrink-0 mr-6">
-        <img src="/logo.png" className="w-12" alt="Logo" loading="lazy" />
-      </HashLink> 
-      <div className="w-full block flex-grow flex items-center w-auto">
+    <nav className="md:flex items-center justify-between flex-wrap px-8 bg-black/[.5] fixed w-full hidden nav-bar z-50">
+      <div className="block flex-grow flex items-center w-auto h-max ">
+        <div>
+          <HashLink to="/#home" className="items-center block h-max mr-7">
+            <img src="/logo2.png" alt="Logo" className="h-8 hover:scale-125" loading="lazy" />
+          </HashLink> 
+        </div>
         <div className="text-sm flex-grow text-white nav-menu">
           <NavLink 
             style={({ isActive }) => isActive ? activeStyle : undefined } 
-            to="/" className="p-1.5 relative hover:text-teal-500 inline-block mt-0 text-white mr-7">
+            to="/" className="p-1.5 relative hover:text-teal-500 inline-block text-white py-5 mx-5">
             Home
           </NavLink>
           <NavLink
             style={({ isActive }) => isActive ? activeStyle : undefined }
-            to="/about" className="p-1.5 relative hover:text-teal-500 inline-block mt-0 text-white mr-7">
+            to="/about" className="p-1.5 relative hover:text-teal-500 inline-block text-white py-5 mx-5">
             About
           </NavLink>
           <NavLink 
             style={({ isActive }) => isActive ? activeStyle : undefined }
-            to="/portfolio" className="p-1.5 relative hover:text-teal-500 inline-block mt-0 text-white mr-7">
+            to="/portfolio" className="p-1.5 relative hover:text-teal-500 inline-block text-white py-5 mx-5">
             Portfolio
           </NavLink>
         </div>

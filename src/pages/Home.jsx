@@ -21,15 +21,16 @@ function Home() {
             <Preloader />
         ) : (
             <>
-                <div id="home" className="flex flex-col items-center justify-center bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed h-screen text-center">
-                    <h1 className="mb-1 text-5xl text-white md:block hidden font-semibold">  
+                <div id="home" className="flex flex-col items-center justify-center bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed h-screen text-center home-section">
+                    <img src="/logo.png" alt="Logo" loading="lazy" />
+                    <h1 className="mb-1 text-5xl text-white md:block hidden font-semibold">
                     <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type whitespace-nowrap">Hi, I'm Matt. A Developer.</span>
                     <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor"></span>
                     </h1>
                     <h1 className="mb-1 text-5xl text-white md:hidden block">Hi, I'm Matt.<br/> A Coder.</h1>
-                    <h2 className="mx-10 text-xl text-zinc-300 mt-10 md:mt-1 font-semibold tracking-wide md:animate-bounce-text animate-none">I write clean and efficient code and more importantly, I love what I do.</h2>
-                    <HashLink to="#featured-projects" className="mt-20 block text-sm px-4 py-2 leading-none border rounded text-teal-500 border-teal-500 hover:text-white hover:bg-teal-500 mt-0 md:animate-bounce-text animate-none">See my projects</HashLink>
-                    <p className="absolute bottom-1 text-white text-xs">
+                    <h2 className="mx-10 text-xl text-zinc-300 mt-10 md:mt-1 font-semibold tracking-wide">I write clean and efficient code and more importantly, I love what I do.</h2>
+                    <HashLink to="#featured-projects" className="mt-20 block text-sm px-4 py-2 leading-none border rounded text-teal-500 border-teal-500 hover:text-white hover:bg-teal-500 mt-0">See my projects</HashLink>
+                    <p className="absolute bottom-1 text-white text-xs animate-pulse">
                         Want to know more?<br/>
                         <HashLink to="#services" className="hover:text-teal-500"><FontAwesomeIcon icon="fa-solid fa-caret-down" size="lg"/></HashLink>
                     </p>
@@ -55,7 +56,7 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div id="featured-projects" className="py-28 px-15 md:px-20 flex flex-col items-center h-full text-white bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed">
+                <div id="featured-projects" className="py-28 px-15 md:px-20 flex flex-col items-center h-full text-white bg-[url('/banner.jpg')] bg-auto bg-repeat bg-center bg-fixed featured-projects-section">
                     <h1 className="mb-1 text-2xl font-semibold uppercase text-center ">Some Things I've Built</h1>
                     <h2 className="text-center text-md mt-1 mx-10 text-zinc-400">Here are a few past projects I've worked on. Want to see more? Check them <NavLink to="/portfolio" className="relative text-teal-500 inline-block mt-0 hover:underline">here</NavLink>.</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-30 md:gap-y-32 gap-y-16 mt-20 md:text-left text-center items-center">

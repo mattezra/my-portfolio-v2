@@ -139,11 +139,6 @@ footer a {
   }
 }
 
-.featured-projects-section {
-  background: rgb(8 8 9 / 70%) url('../work-banner.jpg') no-repeat center fixed;
-  background-size: cover;
-}
-
 .social-media-section {
   background-color: #fff !important;
 }
@@ -176,6 +171,7 @@ footer .social-icon:hover .social-svg-icon {
 .nav-bar a:after,
 .nav-bar a:before,
 .nav-bar button,
+.nav-bar img,
 .featured-projects-section a,
 .featured-projects-section a svg,
 .featured-projects-section img,

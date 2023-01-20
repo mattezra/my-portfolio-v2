@@ -6,7 +6,7 @@ module.exports = {
       animation: {
         cursor: 'cursor .6s linear infinite alternate',
         type: 'type 3s ease-out .8s 1 normal both',
-        'bounce-text': 'bounce 1.5s normal 2'
+        'bounce-img': 'bounce 2s normal 3'
       },
       keyframes: {
         type: {
