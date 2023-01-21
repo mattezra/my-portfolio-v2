@@ -27,7 +27,7 @@ function Home() {
                     <span className="inline-flex h-20 pt-2 overflow-x-hidden animate-type whitespace-nowrap">Hi, I'm Matt. A Developer.</span>
                     <span className="box-border inline-block w-1 h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor"></span>
                     </h1>
-                    <h1 className="mb-1 text-5xl text-white md:hidden block">Hi, I'm Matt.<br/> A Coder.</h1>
+                    <h1 className="mb-1 text-5xl text-white md:hidden block">Hi, I'm Matt.<br/> A Developer.</h1>
                     <h2 className="mx-10 text-xl text-zinc-300 mt-10 md:mt-1 font-semibold tracking-wide">I write clean and efficient code and more importantly, I love what I do.</h2>
                     <HashLink to="#featured-projects" className="mt-20 block text-sm px-4 py-2 leading-none border rounded text-teal-500 border-teal-500 hover:text-white hover:bg-teal-500 mt-0">See my projects</HashLink>
                     <p className="absolute bottom-1 text-white text-xs animate-pulse">
